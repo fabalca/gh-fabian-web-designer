@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tier-page
 title: Resume
 permalink: /resume/
 ---

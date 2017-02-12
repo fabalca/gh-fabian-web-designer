@@ -16,7 +16,7 @@
 title: Fabian Alcantara
 email: hello@fabuloso.me
 description: > # this means to ignore newlines until "baseurl:"
-  Why I want to join GitHub as Web Designer.
+  A designer trying to catch GitHub's attention &#128075;.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fabuloso
@@ -26,10 +26,13 @@ github_username:  fabalca
 # Build settings
 markdown: kramdown
 #theme: minima
+theme: jekyll-athena
 sass:
   sass_dir: _sass/
   style: :compressed
   
+include: ['_pages']
+
 #gems:
  # - jekyll-feed
 exclude:
