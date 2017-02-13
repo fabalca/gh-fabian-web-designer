@@ -5,7 +5,8 @@
 layout: cover-letter
 ---
 <hr class="hr--top">
-<h1 class="intro">Dear Github,</h1>
+
+<span class="highlight--cl">Dear Github,</span>
 
 My name is Fabian Alcantara, and I am excited to write to you regarding the opportunity to work at GitHub as a Web Designer.  
 
@@ -26,3 +27,5 @@ Sincerely,
 Fabian
 
 <hr class="hr--bottom">
+
+<span class="highlight--resume">Resume</span>
