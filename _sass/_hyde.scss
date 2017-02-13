@@ -37,32 +37,50 @@
 //
 $brand-primary:         darken(#d73529, 20.5%);
 //** Global textual link color.
-$link-color:            #ff0000;
+$link-color:            #d73529;
 $link-hover-color:      darken($link-color, 15%);
 //** Link hover decoration.
 $link-hover-decoration: underline;
 
 //== Links/
+a{
+  color: $link-color;
+}
 
 /*
 * Social Media
 */
+.table{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+.email{
+  font-size: ms(0);
+
+  display: block;
+}
+.portfolio{
+  display: block;
+  padding-bottom:1rem;
+  font-size: ms(0);
+}
 ul.social-links {
 
-    padding:0;
+     padding: 0;
 
   li{
-    font-size:ms(-1);
+    font-size:ms(0);
     list-style-type: none;
     float: left;
+    text-align:center;
 
     a {
 
       i {
       background: #205D7A;
       color: #fff;
-      width: 25px;
-      height: 25px;
+      width: 30px;
+      height: 30px;
       border-radius: 20px;
       font-size: ms(0);
       text-align: center;
@@ -70,11 +88,82 @@ ul.social-links {
       padding-top: 15%;
     }
 
+    .fa-facebook {
+      background:#3b5998;
+    } 
+    .fa-linkedin {
+      background:#007bb6;
+    }
+    .fa-twitter {
+      background:#00aced;
+    }
+    .fa-skype{
+      background: #00aff0;
+    }
+    .fa-instagram{
+       // left bottom
+       background:
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    // left top
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    //  right top
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    // right bottom
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+    /////// create a base coat to smooth
+    /////// corner gradients
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    }
+
+
   }
 
  }
 }
+@media (min-width: 48em) {
+  ul.social-links {
+   li{
+      a{
+         i {
+          background: #205D7A;
+          color: #fff;
+          width: 20px;
+          height: 20px;
+          border-radius: 20px;
+          font-size: ms(-1);
 
+
+        }
+      }
+  }
+
+  }
+}
+
+@media (min-width: 64em) {
+  ul.social-links {
+   li{
+      a{
+         i {
+          padding-top: 7px;
+          position: relative;
+           width: 25px;
+          height: 25px;
+       
+
+
+        }
+      }
+  }
+
+  }
+}
+
+     
 
 //== Typography
 //
@@ -200,16 +289,24 @@ hr {
   color: black;
   background-color: white;
   a {
-    color: black;
+    color: $link-color; 
   }
   img{
     margin: 0 auto;
     width: 20px;
     height:20px;
   }
-  h2{
-      padding-bottom: .5rem;
+  .desc{
+    display: block;
+    margin-bottom: 1rem;
+      h2{
+      margin-bottom: .75rem;
+     }
+     img{
+  
+     }
   }
+  
 }
 
 
@@ -290,6 +387,7 @@ hr {
   font-family: $font-family-sans-serif;
   font-weight: bold;
   font-size:ms(4);
+  margin-bottom: .375rem;
 }
 
 
@@ -328,7 +426,7 @@ a.sidebar-nav-item {
   .sidebar-sticky {
     position: absolute;
     right: 1rem;
-    top: 25%;
+    top: 15%;
     left: 1rem;
   }
 }
