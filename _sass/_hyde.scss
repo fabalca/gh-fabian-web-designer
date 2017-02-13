@@ -149,7 +149,7 @@ ul.social-links {
    li{
       a{
          i {
-          padding-top: 7px;
+          padding-top: 5px;
           position: relative;
            width: 25px;
           height: 25px;
@@ -170,7 +170,7 @@ ul.social-links {
 //## Font, line-height, and color for body text, headings, and more.
 // Modular scale has been added.
 
-$font-highlight: "fatfrank", Helvetica, sans-serif;
+$font-highlight: "lato", Arial, sans-serif;
 $font-family-sans-serif: "lato", Arial, sans-serif;
 $font-family-serif: "Abril Fatface", serif;
 $font-family-base:  $font-family-sans-serif !default;
@@ -260,6 +260,10 @@ hr {
   border-top: 3px double #8c8b8b;
 }
 
+.hr--bottom{
+  
+}
+
 
  p.lead{
        line-height: $base-line-height;
@@ -332,12 +336,27 @@ hr {
 
 /* Headings */
 
- .highlight--cl,  .highlight--resume{
+ .highlight--cl{
   font-family: $font-highlight;
   font-size:ms(4);
+  font-weight: 900;
   line-height:  calc-line-height($base-line-height, ms(4))+rem;
 
 
+}
+.highlight--resume{
+    font-size:ms(4);
+    line-height:  calc-line-height($base-line-height, ms(4))+rem;
+
+    &--titles{
+      font-size:ms(1);
+         line-height:  calc-line-height($base-line-height, ms(1))+rem;
+         text-transform: uppercase;
+         font-weight: 900;
+         letter-spacing: 3px;
+
+
+    }
 }
   h2{
     font-size:ms(0);
@@ -353,8 +372,8 @@ hr {
     line-height:  calc-line-height($base-line-height, ms(3))+rem;
   }
   .highlight--resume{
-     font-size:ms(3);
-    line-height:  calc-line-height($base-line-height, ms(3))+rem;
+     font-size:ms(-2);
+    line-height:  calc-line-height($base-line-height, ms(-2))+rem;
   }
 }
 
@@ -364,8 +383,12 @@ hr {
     line-height:  calc-line-height($base-line-height, ms(6))+rem;
   }
    .highlight--resume{
-     font-size:ms(5);
-    line-height:  calc-line-height($base-line-height, ms(5))+rem;
+     font-size:ms(4);
+    line-height:  calc-line-height($base-line-height, ms(4))+rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 90.0625em) { 
@@ -375,7 +398,7 @@ hr {
   }
   .highlight--resume{
      font-size:ms(7);
-    line-height:  calc-line-height($base-line-height, ms(7))+rem;
+    line-height:  calc-line-height($base-line-height, ms(-1))+rem;
   }
 } 
 /* Sidebar links */

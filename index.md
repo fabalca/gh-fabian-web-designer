@@ -27,5 +27,36 @@ Sincerely,
 Fabian
 
 <hr class="hr--bottom">
+<p class="highlight--resume">Resume</p>
+<hr class="hr--bottom">
 
-<span class="highlight--resume">Resume</span>
+I am a highly driven, multi-disciplined designer who brings his "A" 
+game in originality, energy, and razor-sharp focus to each project. I 
+have over 8 years of experience in user experience design, creating 
+effortless experiences for higher education and small business 
+clients. My eye for detail and a keen interest in pushing the 
+boundaries in design ensure that I am able to be a natural leader in
+any creative team.
+
+<hr class="hr--resume--titles-top">
+<p class="highlight--resume--titles">Experience</p>
+<hr class="hr--resume--titles-bottom">
+
+<ul class="exp">
+ <li class="exp--title">Freelance Designer
+    <ul>
+    	 <li class="exp--duration">January 2007 - Present</li>
+    	  <li class="exp--hightlights">Notable Highlights:
+    	  	<ul>
+    	  		 <li>Realigned an ecommerce solution to increase sales by improving the user experience. The changes included a complete overhaul of the visual look and feel of the site, improve checkout process to increase conversion rate, and improve sign-in/sign-out process to increase repeat business with faster task completion of repeat orders.</li>
+
+    	  	</ul>
+ 	 
+ 		 </li>
+
+    </ul>
+ 	
+ </li>
+
+</ul>
+
