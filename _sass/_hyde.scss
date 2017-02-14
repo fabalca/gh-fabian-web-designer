@@ -345,12 +345,15 @@ hr {
 
 }
 .highlight--resume{
-    font-size:ms(4);
-    line-height:  calc-line-height($base-line-height, ms(4))+rem;
+    font-size:ms(6);
+    line-height:  calc-line-height($base-line-height, ms(6))+rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: 3px;
 
     &--titles{
-      font-size:ms(1);
-         line-height:  calc-line-height($base-line-height, ms(1))+rem;
+      font-size:ms(3);
+         line-height:  calc-line-height($base-line-height, ms(3))+rem;
          text-transform: uppercase;
          font-weight: 900;
          letter-spacing: 3px;
@@ -509,6 +512,80 @@ a.sidebar-nav-item {
 }
 
 
+
+
+/* 
+ * Resume
+ *
+ */
+
+
+.exp{
+  
+  padding:0;
+  ul{
+    padding:0;
+  }
+  li{
+    list-style: none;
+  }
+  &--title span{
+    font-size:ms(1);
+    line-height:  calc-line-height($base-line-height, ms(1))+rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+
+  }
+  &--title ul{
+    margin-top:-3px;
+  }
+
+  &--duration-location{
+    font-size:ms(-1);
+    line-height:  calc-line-height($base-line-height, ms(-2))+rem;
+     font-style: italic;
+     margin-bottom:7px;
+  }
+  
+  &--highlight-title{
+    font-size:ms(-1);
+    line-height:  calc-line-height($base-line-height, ms(-1))+rem;
+    font-weight: bold;
+  }
+    &--highlights{
+    font-size:ms(0);
+    line-height:  calc-line-height($base-line-height, ms(0))+rem;
+    margin-bottom: .75rem;
+  }
+}
+
+.skills, .tools,.hobbies{
+   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+     -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 80px; /* Firefox */
+    column-gap: 80px;
+
+    padding-left:10px;
+
+    li{
+      list-style: none;
+    }
+}
+
+.recent-awards, .education{
+  padding-left:10px;
+  li{
+      list-style: none;
+      margin-bottom: .75rem;
+
+  }
+}
+
+
 /*
  * Reverse layout
  *
@@ -534,6 +611,7 @@ a.sidebar-nav-item {
     margin-right: 22rem;
   }
 }
+
 
 /*
  * Themes

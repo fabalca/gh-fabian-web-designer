@@ -43,20 +43,130 @@ any creative team.
 <hr class="hr--resume--titles-bottom">
 
 <ul class="exp">
- <li class="exp--title">Freelance Designer
+ <li class="exp--title"><span>Freelance Designer</span>
     <ul>
-    	 <li class="exp--duration">January 2007 - Present</li>
-    	  <li class="exp--hightlights">Notable Highlights:
-    	  	<ul>
-    	  		 <li>Realigned an ecommerce solution to increase sales by improving the user experience. The changes included a complete overhaul of the visual look and feel of the site, improve checkout process to increase conversion rate, and improve sign-in/sign-out process to increase repeat business with faster task completion of repeat orders.</li>
-
-    	  	</ul>
- 	 
- 		 </li>
+    	  <li class="exp--duration-location">January 2007 - Present</li>
+    	  <li class="exp--highlight-title">Notable Highlights:</li>
+    	  <li>Realigned an ecommerce solution to increase sales by improving the user experience. The changes included a complete overhaul of the visual look and feel of the site, improve checkout process to increase conversion rate, and improve sign-in/sign-out process to increase repeat business with faster task completion of repeat orders.</li>
 
     </ul>
- 	
- </li>
+ 	 
+  </li>
 
 </ul>
 
+<ul class="exp">
+ <li class="exp--title"><span>Senior Interaction Designer</span>
+    <ul>
+    	  <li class="exp--duration-location">June 2009 - May 2016, Florida International University, Miami, FL USA</li>
+    	  <li class="exp--highlight-title">Notable Highlights:</li>
+    	  <li class="exp--highlights">Redesigned FIU’s campus maps in two weeks by focusing & designing on a minimum viable product (MVP) using a lean UX design process. The new design resulted in a 191% increase (9,000 new people) in mobile users, and a 146% increase (938 new people) in tablet users.</li>
+			<li class="exp--highlights">Created a usability lab to increase awareness on web accessibility and UI design for the university which will save the university over $12,000 on usability testing every year.</li>
+			<li class="exp--highlights">Presented a responsive design strategy to increase FIU.edu’s digital footprint in mobile, tablet, and desktop platforms. This strategy resulted in a 162% increase in new mobile users (151,000 new people), and a 151% increase in new tablet users (75,700 new people) for fiu.edu from 2012 to 2013.</li>
+			<li class="exp--highlights">Led over 30 website redesigns throughout my tenure including two fiu.edu website redesigns.</li>
+
+    </ul>
+ 	 
+  </li>
+
+</ul>
+<ul class="exp">
+ <li class="exp--title"><span>Web Designer</span>
+    <ul>
+    	  <li class="exp--duration-location">November 2007 - June 2009, University of Miami - College of Business, Miami, FL USA</li>
+    	  <li class="exp--highlight-title">Notable Highlights:</li>
+    	  <li class="exp--highlights">Managed UM's School of Business website while ensuring effective creative content development and execution to support program and media efforts to over 60,000 visitors a month.</li>
+
+    </ul>
+ 	 
+  </li>
+
+</ul>
+<ul class="exp">
+ <li class="exp--title"><span>Software Security Engineer</span>
+    <ul>
+    	  <li class="exp--duration-location">January 2006 - April 2006, Department of Defense, TS/SI, Seasonal Internship Program Information Assurance – Spring 2006</li>
+    	  <li class="exp--highlight-title">Notable Highlights:</li>
+    	  <li class="exp--highlights">Assisted to develop a set of prototype plug-ins using Eclipse Integrated Development Environment (IDE) to evaluate the security strength of source code design. Familiar with Federal Information Processing Standards (FIPS 140) and Common Criteria security practices.</li>
+
+    </ul>
+ 	 
+  </li>
+
+</ul>
+<hr class="hr--resume--titles-top">
+<p class="highlight--resume--titles">Skills</p>
+<hr class="hr--resume--titles-bottom">
+
+<ul class="skills">
+	
+	<li>User Research</li>
+	<li>Competitive Analysis</li>
+	<li>Usability Testing</li>
+	<li>Content Inventory</li>
+	<li>IA</li>
+	<li>Use Cases</li>
+	<li>Site Maps</li>
+	<li>Wireframes</li>
+	<li>Prototyping</li>
+	<li>HTML & CSS</li>
+	<li>Sass & Compass</li>
+	<li>jQuery</li>
+	<li>Xcode & Swift</li>
+	<li>Analytics</li>
+	<li>Lean UX</li>
+	<li>Visual Design</li>
+	<li>Brand Identity</li>
+	<li>Team Leadership</li>
+
+
+</ul>
+<hr class="hr--resume--titles-top">
+<p class="highlight--resume--titles">Education</p>
+<hr class="hr--resume--titles-bottom">
+<ul class="education">
+	<li>MFA, Graphic Design, 2018 University of Miami</li>
+	<li>MS, Telecom & Networking, 2006 Florida International University</li>
+	<li>BS, Computer Science, 2003 Florida International University</li>
+</ul>
+
+<hr class="hr--resume--titles-top">
+<p class="highlight--resume--titles">Recent Awards</p>
+<hr class="hr--resume--titles-bottom">
+<ul class="recent-awards">
+	<li>FIU Employee Recognition Nominee 2011, 2013</li>
+	<li>Council for Advancement and Support for Education Award Nominee (For distinguished work in higher ed) 2013, 2014</li>
+	<li>FIU Service Excellence Award 2016</li>
+</ul>
+
+<hr class="hr--resume--titles-top">
+<p class="highlight--resume--titles">Tools</p>
+<hr class="hr--resume--titles-bottom">
+<ul class="tools">
+	<li>Adobe Creative Suite</li>
+	<li>Sublime Text</li>
+	<li>OmniFocus</li>
+	<li>Foundation</li>
+	<li>Sketch</li>
+	<li>Framer</li>
+	<li>Sketchbooks</li>
+	<li>Timeboxing</li>
+	<li>OmniGraffle</li>
+	<li>Silverback</li>
+	<li>Git</li>
+	<li>InVision</li>
+	
+</ul>
+
+<hr class="hr--resume--titles-top">
+<p class="highlight--resume--titles">Hobbies</p>
+<hr class="hr--resume--titles-bottom">
+<ul class="hobbies">
+	<li>Photography</li>
+	<li>Lettering</li>
+	<li>DJ</li>
+	<li>Sports</li>
+	<li>Video Games</li>
+	<li>Culinary Arts</li>
+	
+</ul>
