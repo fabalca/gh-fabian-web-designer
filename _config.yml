@@ -26,12 +26,12 @@ github_username:  fabalca
 # Build settings
 markdown: kramdown
 #theme: minima
-theme: jekyll-athena
+#theme: jekyll-athena
 sass:
   sass_dir: _sass/
   style: :compressed
   
-include: ['_pages']
+# include: ['_pages']
 
 #gems:
  # - jekyll-feed

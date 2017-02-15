@@ -12,8 +12,7 @@
  * Designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/hyde. 
  *
- * I modified just a little to create some global variables for this project to 
- * include modular scale. 
+ * I modified just a little to include modular scale and to be a one page site.
  * 
  */
 
@@ -54,16 +53,18 @@ a{
   display: table;   /* Allow the centering to work */
   margin: 0 auto;
 }
-.email{
-  font-size: ms(0);
 
-  display: block;
-}
 .portfolio{
-  display: block;
-  padding-bottom:1rem;
-  font-size: ms(0);
+  padding-bottom:0;
+  padding-left :0;
+
+  li{
+    list-style: none;
+    font-size: ms(0);
+    display: block;
+  }
 }
+
 ul.social-links {
 
      padding: 0;
@@ -217,13 +218,16 @@ https://github.com/thomasjbradley/typografier/blob/gh-pages/js/main.js
 }
  
 
+
 html {
   font-family: $font-family-base;
   /* background: $brand-primary; */
   font-size: ms(0);
   line-height: $base-line-height;
-  color:white;
 
+ body{
+   color: #313131;
+ }
 }
 
 @media only screen and (min-width: 30em) {
@@ -290,7 +294,7 @@ hr {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: black;
+  color: #515151;
   background-color: white;
   a {
     color: $link-color; 
@@ -519,7 +523,9 @@ a.sidebar-nav-item {
  *
  */
 
-
+.my-name{
+  margin-top: 2rem;
+}
 .exp{
   
   padding:0;
@@ -582,130 +588,5 @@ a.sidebar-nav-item {
       list-style: none;
       margin-bottom: .75rem;
 
-  }
-}
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse {
-    .sidebar {
-      left: auto;
-      right: 0;
-    }
-    .content {
-      margin-left: 2rem;
-      margin-right: 20rem;
-    }
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-
-.theme-base-08 {
-  .sidebar {
-    background-color: #ac4142;
-  }
-  .content a, .related-posts li a:hover {
-    color: #ac4142;
-  }
-}
-
-/* Orange */
-
-.theme-base-09 {
-  .sidebar {
-    background-color: #d28445;
-  }
-  .content a, .related-posts li a:hover {
-    color: #d28445;
-  }
-}
-
-/* Yellow */
-
-.theme-base-0a {
-  .sidebar {
-    background-color: #f4bf75;
-  }
-  .content a, .related-posts li a:hover {
-    color: #f4bf75;
-  }
-}
-
-/* Green */
-
-.theme-base-0b {
-  .sidebar {
-    background-color: #90a959;
-  }
-  .content a, .related-posts li a:hover {
-    color: #90a959;
-  }
-}
-
-/* Cyan */
-
-.theme-base-0c {
-  .sidebar {
-    background-color: #75b5aa;
-  }
-  .content a, .related-posts li a:hover {
-    color: #75b5aa;
-  }
-}
-
-/* Blue */
-
-.theme-base-0d {
-  .sidebar {
-    background-color: #6a9fb5;
-  }
-  .content a, .related-posts li a:hover {
-    color: #6a9fb5;
-  }
-}
-
-/* Magenta */
-
-.theme-base-0e {
-  .sidebar {
-    background-color: #aa759f;
-  }
-  .content a, .related-posts li a:hover {
-    color: #aa759f;
-  }
-}
-
-/* Brown */
-
-.theme-base-0f {
-  .sidebar {
-    background-color: #8f5536;
-  }
-  .content a, .related-posts li a:hover {
-    color: #8f5536;
   }
 }
