@@ -10,9 +10,9 @@ layout: cover-letter-resume
 
 My name is Fabian Alcantara, and I am excited to write to you regarding the opportunity to work at GitHub as a Web Designer. I believe that with my passion in design, and the pursuit of always improving my craft as a designer, I can be a great fit for the team!
 
-In 2009, I joined Florida International University as an Interaction Designer. I came onboard to help build a web team to focus on students' needs, provide art/creative direction, and spearhead User Experience (UX) Design to stakeholders and leadership. By showcasing UX concepts in the web design projects we did we were able to prove to the university that approaching design in this manner is key. The result has changed the university’s focus towards satisfying students’ needs, than just stakeholders needs. In fact, it has also exceeded stakeholders’ expectations with better engagement from their audience, students.
+In 2009, I joined Florida International University as an Interaction Designer. I came onboard to help build a web team to focus on students' needs, provide art/creative direction, and spearhead user experience (UX) design to stakeholders and leadership. By showcasing UX concepts in the web work we did we were able to prove to the university that approaching design in this manner is key to meeting users' goals. The results have also exceeded stakeholders’ expectations with better engagement from their audience, students.
 
-During my time at FIU, I learned to be a leader while empowering my team, and connecting with people from higher executive levels. I have also been able to help elevate FIU’s digital brand across mobile, tablets, and desktop platforms by at least 140% in the amount of use in each of FIU’s most strategic websites and web applications. As a result, FIU’s primary audience, students, are more confident and less stressed when using a FIU website.
+During my time at FIU, I learned to be a leader while empowering my team, and connecting with people from higher executive levels. I have also been able to help elevate FIU’s digital brand across mobile, tablets, and desktop platforms by at least 140% in the amount of use in each of FIU’s most strategic websites and web applications. 
 
 In summary, I would love the opportunity to bring my knowledge of, and passion for making designs successful to GitHub. I hope to join your team so that I can inspire, engage, and excite people through great designs.
 
@@ -41,19 +41,6 @@ Sincerely,
 
 <p class="my-name">Fabian Alcantara</p>
 
-<!--
-<hr class="hr--bottom">
-<p class="highlight--resume">Resume</p>
-<hr class="hr--bottom">
-
-I am a highly driven, multi-disciplined designer who brings his "A" 
-game in originality, energy, and razor-sharp focus to each project. I 
-have over 8 years of experience in user experience design, creating 
-effortless experiences for higher education and small business 
-clients. My eye for detail and a keen interest in pushing the 
-boundaries in design ensure that I am able to be a natural leader in
-any creative team.
--->
 <hr class="hr--resume--titles-top">
 <p class="highlight--resume--titles">Experience</p>
 <hr class="hr--resume--titles-bottom">
