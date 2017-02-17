@@ -27,7 +27,7 @@ Sincerely,
 
 <?xml version="1.0" encoding="utf-8"?>
 <svg id="signature" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 496.9 100.2" xml:space="preserve">
+	 viewBox="0 0 396.9 80.2" xml:space="preserve">
 <path class="stroke-f" id="XMLID_19_" d="M29.1,65.5c-4.4,5-14.6,9.8-18.3,2.2c-1.2-2.6-1.5-6-1.5-8.8c-0.2-7.5,2.2-14.8,5.6-21.4
 			c3-5.9,7-11.2,11-16.4c2.7-3.5,5.5-6.9,8.4-10.2c2.1-2.3,7.3-8.1,8.6-2.2c1.4,6.3,0.5,13.3,0.2,19.7c-0.3,7.4-0.8,14.8-1.4,22.3
 		c-1.2,14.8-2.8,29.6-4.5,44.4c0,0"/>
