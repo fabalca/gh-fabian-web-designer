@@ -338,6 +338,15 @@ hr {
 
 }
 
+@media (min-width: 64em) {
+  .sidebar {
+    width: 19em;
+
+  }
+   
+
+}
+
 /* Headings */
 
  .highlight--cl{
@@ -471,6 +480,7 @@ a.sidebar-nav-item {
 .container {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  max-width:39rem;
 }
 .content {
   padding-top: 0rem;
@@ -485,6 +495,7 @@ a.sidebar-nav-item {
 }
 @media (min-width: 48em) {
   .content {
+    margin-top: 1.5rem;
     margin-left: 15rem;
     margin-right: 2rem;
   }
@@ -517,6 +528,70 @@ a.sidebar-nav-item {
 
 
 
+/*
+* Signature
+* 
+* Found on Codepen: http://codepen.io/fabuloso/pen/mRogbz
+*/ 
+
+ #signature {
+  width: 200%;
+  padding: 2em 0;
+  opacity:0;
+  
+}
+
+#signature.animate {
+  opacity: 1;
+}
+
+path, line {
+  fill:none;
+  stroke: #000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.animate .stroke-f{ 
+   stroke-dasharray:310;
+    animation: write1 3s 1 ease-out; 
+   
+}
+.animate .stroke-f-flourish{
+   stroke-dasharray: 100;
+   animation: write2 3s 1 ease-in;
+}
+.animate .stroke-ab{
+   stroke-dasharray:308;
+   animation: write3 3s 1 ease-in-out;
+}
+@keyframes write1 {
+   0% { 
+        stroke-dashoffset:310;
+    }
+   33.3% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write2 {
+    0%,33.3% {
+        stroke-dashoffset:100;
+    }
+    43% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write3 {
+    0%,43.3%{ 
+        stroke-dashoffset: 308;
+    } 
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
 
 /* 
  * Resume
@@ -524,7 +599,8 @@ a.sidebar-nav-item {
  */
 
 .my-name{
-  margin-top: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 .exp{
   

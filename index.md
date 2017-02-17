@@ -2,19 +2,17 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: cover-letter
+layout: cover-letter-resume
 ---
 <hr class="hr--top">
 
 <span class="highlight--cl">Dear Github,</span>
 
-My name is Fabian Alcantara, and I am excited to write to you regarding the opportunity to work at GitHub as a Web Designer.  
-
-First impressions are important! So, I created this GitHub Page using Jekyll to showcase some of the qualifications you are seeking. To have the opportunity to work at GitHub would be amazing! I believe that with my passion in design, and the pursuit of always improving my craft as a designer, I can be a great fit for the team!
+My name is Fabian Alcantara, and I am excited to write to you regarding the opportunity to work at GitHub as a Web Designer. I believe that with my passion in design, and the pursuit of always improving my craft as a designer, I can be a great fit for the team!
 
 In 2009, I joined Florida International University as an Interaction Designer. I came onboard to help build a web team to focus on students' needs, provide art/creative direction, and spearhead User Experience (UX) Design to stakeholders and leadership. By showcasing UX concepts in the web design projects we did we were able to prove to the university that approaching design in this manner is key. The result has changed the university’s focus towards satisfying students’ needs, than just stakeholders needs. In fact, it has also exceeded stakeholders’ expectations with better engagement from their audience, students.
 
-During my time at FIU, I have learned to be a leader while empowering my team, and connecting with people from higher executive levels. I have also been able to help elevate FIU’s digital brand across mobile, tablets, and desktop platforms by at least 140% in the amount of use in each of FIU’s most strategic websites and web applications. As a result, FIU’s primary audience, students, are more confident and less stressed when using a FIU website.
+During my time at FIU, I learned to be a leader while empowering my team, and connecting with people from higher executive levels. I have also been able to help elevate FIU’s digital brand across mobile, tablets, and desktop platforms by at least 140% in the amount of use in each of FIU’s most strategic websites and web applications. As a result, FIU’s primary audience, students, are more confident and less stressed when using a FIU website.
 
 In summary, I would love the opportunity to bring my knowledge of, and passion for making designs successful to GitHub. I hope to join your team so that I can inspire, engage, and excite people through great designs.
 
@@ -26,7 +24,23 @@ Thank you for your time.
 
 Sincerely,
 
-<p class="my-name">Fabian</p>
+
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="signature" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 496.9 100.2" xml:space="preserve">
+<path class="stroke-f" id="XMLID_19_" d="M29.1,65.5c-4.4,5-14.6,9.8-18.3,2.2c-1.2-2.6-1.5-6-1.5-8.8c-0.2-7.5,2.2-14.8,5.6-21.4
+			c3-5.9,7-11.2,11-16.4c2.7-3.5,5.5-6.9,8.4-10.2c2.1-2.3,7.3-8.1,8.6-2.2c1.4,6.3,0.5,13.3,0.2,19.7c-0.3,7.4-0.8,14.8-1.4,22.3
+		c-1.2,14.8-2.8,29.6-4.5,44.4c0,0"/>
+
+<path class="stroke-f-flourish" id="XMLID_25_" d="M36.9,83.8c0-1-0.2-1.9-0.6-2.8c-0.3-0.6-1.4-1.6-1.4-2.2c0.1-0.9,2.1-1.8,2.8-2.3
+			c1.1-0.8,2.2-1.6,3.3-2.4c0.1-0.1-0.2-0.1-0.2,0"/>
+<path class="stroke-ab" id="XMLID_31_" d="M49.8,84.7c0.1-1.3,0.2-0.7-0.3-1.9c0-0.1-0.1-0.1-0.2,0c-2.2,0.9-3.3,2.3-3.9,4.6c0,0.1,0.2,0.1,0.2,0.1
+			c5.4-2.7,7.4-6.6,9-12.3c3.1-11.4,3.8-23.2,2.3-34.9c0-0.1-0.3-0.1-0.3,0.1c-1.9,16.2-3.7,32.6-0.8,48.8c0,0.1,0.3,0,0.3-0.1
+			c0.6-2.2,0.8-5.1,1.9-7.2c1.5-2.8,2.9-3.4,5.5-4c2.9-0.7,5.6-2,8.1-3.5c7.4-4.3,13.7-10.3,22.1-12.7c0.2,0,0.1-0.2-0.1-0.2"/>
+</svg>
+
+<p class="my-name">Fabian Alcantara</p>
+
 
 <hr class="hr--bottom">
 <p class="highlight--resume">Resume</p>
