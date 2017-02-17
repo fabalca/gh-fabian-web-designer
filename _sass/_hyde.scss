@@ -232,6 +232,9 @@ html {
  }
 }
 
+small{
+
+}
 @media only screen and (min-width: 30em) {
     html{
       font-size:  ms(1);
@@ -659,6 +662,9 @@ path, line {
       list-style: none;
     }
 }
+.hobbies{
+     margin-bottom: 1.5rem;  
+}
 
 .recent-awards, .education{
   padding-left:10px;
@@ -667,4 +673,8 @@ path, line {
       margin-bottom: .75rem;
 
   }
+}
+.content p:last-child{
+  margin-bottom: 0;
+ 
 }

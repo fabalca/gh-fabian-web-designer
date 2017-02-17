@@ -186,3 +186,7 @@ any creative team.
 	<li>Culinary Arts</li>
 	
 </ul>
+
+<small>
+        This website is powered by Jekyll, and hosted with <a href="//github.com/">GitHub</a>.
+    </small>
