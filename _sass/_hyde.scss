@@ -45,7 +45,9 @@ $link-hover-decoration: underline;
 a{
   color: $link-color;
 }
-
+.portfolio li:first-child{
+  margin-bottom: .75rem;
+}
 /*
 * Social Media
 */
