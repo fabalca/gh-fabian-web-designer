@@ -41,7 +41,7 @@ Sincerely,
 
 <p class="my-name">Fabian Alcantara</p>
 
-
+<!--
 <hr class="hr--bottom">
 <p class="highlight--resume">Resume</p>
 <hr class="hr--bottom">
@@ -53,7 +53,7 @@ effortless experiences for higher education and small business
 clients. My eye for detail and a keen interest in pushing the 
 boundaries in design ensure that I am able to be a natural leader in
 any creative team.
-
+-->
 <hr class="hr--resume--titles-top">
 <p class="highlight--resume--titles">Experience</p>
 <hr class="hr--resume--titles-bottom">
